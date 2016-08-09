@@ -2,8 +2,12 @@
 #
 
 class Hello
-	def say
-		"hello"
+	def say(towhom = :nobody)
+		if  towhom == :nobody
+			"hello"
+		else
+			"hello, #{towhom}"
+		end
 	end
 end
 

@@ -8,5 +8,8 @@ describe Hello do
 		it 'should say hello' do
 			expect(subject.say).to eq("hello")
 		end
+		it 'should say hello to somebody' do
+			expect(subject.say("brian")).to eq("hello, brian")
+		end
 	end
 end
