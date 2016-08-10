@@ -7,7 +7,7 @@ rvm:
 
 cache:
     directories:
-            - ../../.rvm/rubies/ruby-2.2.0/gems
+            - ../../.rvm/gems
 
 script:
     - (cd sub-proj && bundle install && bundle exec rake )
