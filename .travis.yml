@@ -12,4 +12,4 @@ cache:
         - .rvm/gems/ruby-2.2.0/gems/
 
 script:
-    - (cd sub-proj && bundle install && bundle exec rake )
+    - (cd sub-proj && bundle install --path=vendor/cache && bundle exec rake )
