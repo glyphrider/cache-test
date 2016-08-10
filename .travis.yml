@@ -4,11 +4,9 @@
 language: ruby
 rvm:
   - 2.2
-# - 2.1
 
 cache:
     directories:
-#       - ../../.rvm/gems/ruby-2.2.0/gems/
         - sub-proj/vendor/cache/
 
 script:
