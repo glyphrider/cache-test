@@ -5,4 +5,8 @@ language: ruby
 rvm:
   - 2.2
   - 2.1
+
 cache: bundler
+
+script:
+    - (cd sub-proj && bundle install && bundle exec rake )
