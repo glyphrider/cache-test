@@ -8,7 +8,7 @@ rvm:
 
 cache:
     directories:
-        - ../../.rvm/gems/ruby-2.2.0/gems/
+#       - ../../.rvm/gems/ruby-2.2.0/gems/
         - sub-proj/vendor/cache/
 
 script:
